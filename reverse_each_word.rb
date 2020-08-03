@@ -1,4 +1,4 @@
 def reverse_each_word(string)
-  string.collect do |word|
-    word.reverse 
+  string.split.collect do |word|
+     
 end 
